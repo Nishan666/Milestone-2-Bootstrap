@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lets Eat</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"
+      integrity="sha384-M6P9JmJ3W1ywQhzTjrC5ihxDpBhaUK4NDxCdhoVv54BtfakTbH7Sk6yLd+2R/GY"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- page -->
+    <div id="page">
+      <div id="overlay"></div>
+      <div id="navbar">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-md-3 p-0 navbar-logo d-flex align-items-center justify-content-center"
+            >
+              <img src="images/logo.png" alt="" width="40%" />
+            </div>
+            <div class="col-md-3 d-flex fw-bold align-items-center">
+              <h3 class="p-3">Offers</h3>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-end">
+              <ul class="list-unstyled d-flex m-0 pe-3">
+                <li class="py-3"><h5 class="p-0 m-1">William Bishop</h5></li>
+                <li class="py-3 ps-2 pe-3">
+                  <img src="./images/Path 73338.svg" alt="" />
+                </li>
+                <li class="p-2">
+                  <img src="./images/Ellipse 232.png" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- body -->
+      <div id="body">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- side bar -->
+            <div id="sideBar" class="col-md-3 p-0 side-bar">
+              <ul class="list-unstyled fw-medium text-light">
+                <li
+                  class="d-flex justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8236.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Dashboard</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 2989.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Restuarants</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8237.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Cuisines</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8239.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Curated List</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8240.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Orders</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8242.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Payouts</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8244.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Customers</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Layer 2.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Template</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8871.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Supplies</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8890.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Supply Order</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 inactive"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8914.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Reviews</span>
+                  </div>
+                </li>
+                <li
+                  class="d-flex side-bar-li justify-content-center align-items-center pe-0 py-0 active"
+                >
+                  <div class="w-50 py-2">
+                    <img
+                      class="ps-1 pe-3"
+                      src="./images/Group 8917.svg"
+                      alt=""
+                    /><span class="py-2 pe-4 font-15">Offers</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- with-offer -->
+            <div id="withOffer" class="col-md-9">
+              <div class="container px-4">
+                <!-- filter and search -->
+                <div class="row py-3">
+                  <div class="col-md-3">
+                    <span class="px-2 fw-medium font-15">Filter</span>
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn border border-secondary-subtle rounded-pill d-flex justify-content-between align-items-center filter-btn"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <span class="font-15">All</span>
+                        <img
+                          class="ms-auto"
+                          src="./images/Path 73338.svg"
+                          alt=""
+                        />
+                      </button>
+                      <ul class="dropdown-menu font-15">
+                        <li><a class="dropdown-item" href="#">All</a></li>
+                        <li><a class="dropdown-item" href="#">Active</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Inactive</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Expried</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="input-group rounded">
+                      <input
+                        type="search"
+                        class="form-control rounded-pill"
+                        placeholder="Search"
+                        aria-label="Search"
+                        aria-describedby="search-addon"
+                      />
+                      <span
+                        class="input-group-text bg-warning border-0 rounded-pill position-absolute end-0 h-100"
+                        id="search-addon"
+                      >
+                        <i class="fas fa-search"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-5 d-flex justify-content-end">
+                    <button
+                      id="btnOpenSidebarCreate"
+                      type="button"
+                      class="btn btn-warning d-flex justify-content-end align-items-center rounded-pill"
+                    >
+                      <img
+                        class="px-2"
+                        src="./images/Group 6454.svg"
+                        alt=""
+                      /><span class="font-15">Create Offer</span>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- card-1 -->
+                <div class="row py-2">
+                  <div class="card p-0">
+                    <div
+                      class="card-header card-header-active d-flex justify-content-between align-items-center"
+                    >
+                      <div class="p-1">
+                        <span class="fw-bold text-white">NEW30</span>
+                        <p class="text-white m-0 font-14">
+                          Use code NEW30 and get FLAT 10% off on orders above
+                          £250.
+                        </p>
+                      </div>
+
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn border-none"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="./images/Icon material-more-vert.svg"
+                            alt=""
+                          />
+                        </button>
+
+                        <ul class="dropdown-menu font-15">
+                          <li>
+                            <a
+                              id="btnOpenSidebarView"
+                              class="dropdown-item"
+                              href="#"
+                              >View</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              id="btnOpenSidebarEdit"
+                              class="dropdown-item"
+                              href="#"
+                              >Edit</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#popModelActivate"
+                              >Activate</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#popModelDeactivate"
+                              >Deactivate</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card-body pb-1">
+                      <!-- line-1 -->
+                      <ul class="d-flex justify-content-between list-unstyled">
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Offer Type</div>
+                          <div class="font-14 fw-bold">Percentage</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Discount</div>
+                          <div class="font-14 fw-bold">10%</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Max Discount</div>
+                          <div class="font-14 fw-bold">£100</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Min Order Value</div>
+                          <div class="font-14 fw-bold">£250</div>
+                        </li>
+                        <li class="flex-fill">
+                          <div class="font-12">User Type</div>
+                          <div class="font-14 fw-bold">New Users</div>
+                        </li>
+                      </ul>
+
+                      <!-- line-2 -->
+                      <ul class="d-flex justify-content-between list-unstyled">
+                        <li class="flex-fill me-5">
+                          <div class="font-12">Offer Validity</div>
+                          <div class="font-14 fw-bold">
+                            <ul
+                              class="list-unstyled d-flex justify-content-between me-5 pe-3"
+                            >
+                              <li>
+                                <span class="date-color">Start Date:</span>
+                                <span>01/05/2022</span>
+                              </li>
+                              <li>
+                                <span class="date-color">End Date:</span>
+                                <span>31/05/2022</span>
+                              </li>
+                              <li>
+                                <span
+                                  ><img
+                                    src="./images/Icon material-timer.svg"
+                                    alt=""
+                                /></span>
+                                <span>31 Days</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="flex-fill ms-4 ps-4">
+                          <div class="font-12">Status</div>
+                          <div class="font-14 fw-bold">Active</div>
+                        </li>
+                        <li
+                          class="flex-fill d-flex justify-content-center align-items-center"
+                        >
+                          <button
+                            id="btnOpenSidebarViewMore"
+                            type="button"
+                            class="text-decoration-none btn btn-link fw-bold text-primary"
+                          >
+                            View More
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- card-2 -->
+                <div class="row py-2">
+                  <div class="card p-0">
+                    <div
+                      class="card-header card-header-active d-flex justify-content-between align-items-center"
+                    >
+                      <div class="p-1">
+                        <span class="fw-bold text-white">TRYNEW</span>
+                        <p class="text-white m-0 font-14">
+                          Use code TRY NEW and get FLAT £20 off on orders above
+                          £150.
+                        </p>
+                      </div>
+
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn border-none"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="./images/Icon material-more-vert.svg"
+                            alt=""
+                          />
+                        </button>
+
+                        <ul class="dropdown-menu font-15">
+                          <li>
+                            <a
+                              id="btnOpenSidebarView"
+                              class="dropdown-item"
+                              href="#"
+                              >View</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              id="btnOpenSidebarEdit"
+                              class="dropdown-item"
+                              href="#"
+                              >Edit</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#popModelActivate"
+                              >Activate</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#popModelDeactivate"
+                              >Deactivate</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card-body pb-1">
+                      <!-- line-1 -->
+                      <ul class="d-flex justify-content-between list-unstyled">
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Offer Type</div>
+                          <div class="font-14 fw-bold">Flat</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Discount</div>
+                          <div class="font-14 fw-bold">£20</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Max Discount</div>
+                          <div class="font-14 fw-bold">£20</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Min Order Value</div>
+                          <div class="font-14 fw-bold">£150</div>
+                        </li>
+                        <li class="flex-fill">
+                          <div class="font-12">User Type</div>
+                          <div class="font-14 fw-bold">New Users</div>
+                        </li>
+                      </ul>
+
+                      <!-- line-2 -->
+                      <ul class="d-flex justify-content-between list-unstyled">
+                        <li class="flex-fill me-5">
+                          <div class="font-12">Offer Validity</div>
+                          <div class="font-14 fw-bold">
+                            <ul
+                              class="list-unstyled d-flex justify-content-between me-5 pe-3"
+                            >
+                              <li>
+                                <span class="date-color">Start Date:</span>
+                                <span>01/05/2022</span>
+                              </li>
+                              <li>
+                                <span class="date-color">End Date:</span>
+                                <span>31/05/2022</span>
+                              </li>
+                              <li>
+                                <span
+                                  ><img
+                                    src="./images/Icon material-timer.svg"
+                                    alt=""
+                                /></span>
+                                <span>31 Days</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="flex-fill ms-4 ps-4">
+                          <div class="font-12">Status</div>
+                          <div class="font-14 fw-bold">Active</div>
+                        </li>
+                        <li
+                          class="flex-fill d-flex justify-content-center align-items-center"
+                        >
+                          <button
+                            id="btnOpenSidebarViewMore"
+                            type="button"
+                            class="text-decoration-none btn btn-link fw-bold text-primary"
+                          >
+                            View More
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- card-3 -->
+                <div class="row py-2">
+                  <div class="card p-0">
+                    <div
+                      class="card-header card-header-inactive d-flex justify-content-between align-items-center"
+                    >
+                      <div class="p-1">
+                        <span class="fw-bold text-white">STEALDEAL</span>
+                        <p class="text-white m-0 font-14">
+                          Use code STEALDEAL and get FLAT £20 off on orders
+                          above £150.
+                        </p>
+                      </div>
+
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn border-none"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="./images/Icon material-more-vert.svg"
+                            alt=""
+                          />
+                        </button>
+
+                        <ul class="dropdown-menu font-15">
+                          <li>
+                            <a
+                              id="btnOpenSidebarView"
+                              class="dropdown-item"
+                              href="#"
+                              >View</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              id="btnOpenSidebarEdit"
+                              class="dropdown-item"
+                              href="#"
+                              >Edit</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#popModelActivate"
+                              >Activate</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#popModelDeactivate"
+                              >Deactivate</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card-body pb-1">
+                      <!-- line-1 -->
+                      <ul class="d-flex justify-content-between list-unstyled">
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Offer Type</div>
+                          <div class="font-14 fw-bold">Flat</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Discount</div>
+                          <div class="font-14 fw-bold">£20</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Max Discount</div>
+                          <div class="font-14 fw-bold">£20</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Min Order Value</div>
+                          <div class="font-14 fw-bold">£150</div>
+                        </li>
+                        <li class="flex-fill">
+                          <div class="font-12">User Type</div>
+                          <div class="font-14 fw-bold">New Users</div>
+                        </li>
+                      </ul>
+
+                      <!-- line-2 -->
+                      <ul class="d-flex justify-content-between list-unstyled">
+                        <li class="flex-fill me-5">
+                          <div class="font-12">Offer Validity</div>
+                          <div class="font-14 fw-bold">
+                            <ul
+                              class="list-unstyled d-flex justify-content-between me-5 pe-3"
+                            >
+                              <li>
+                                <span class="date-color">Start Date:</span>
+                                <span>01/05/2022</span>
+                              </li>
+                              <li>
+                                <span class="date-color">End Date:</span>
+                                <span>31/05/2022</span>
+                              </li>
+                              <li>
+                                <span
+                                  ><img
+                                    src="./images/Icon material-timer.svg"
+                                    alt=""
+                                /></span>
+                                <span>31 Days</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="flex-fill ms-4 ps-4">
+                          <div class="font-12">Status</div>
+                          <div class="font-14 fw-bold">Inactive</div>
+                        </li>
+                        <li
+                          class="flex-fill d-flex justify-content-center align-items-center"
+                        >
+                          <button
+                            id="btnOpenSidebarViewMore"
+                            type="button"
+                            class="text-decoration-none btn btn-link fw-bold text-primary"
+                          >
+                            View More
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- card-4 -->
+                <div class="row py-2">
+                  <div class="card p-0">
+                    <div
+                      class="card-header card-header-expried d-flex justify-content-between align-items-center"
+                    >
+                      <div class="p-1">
+                        <span class="fw-bold text-white">USEJUMBO</span>
+                        <p class="text-white m-0 font-14">
+                          Use code USE JUMBO and get FLAT 15% off on orders
+                          above £200.
+                        </p>
+                      </div>
+
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn border-none"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="./images/Icon material-more-vert.svg"
+                            alt=""
+                          />
+                        </button>
+
+                        <ul class="dropdown-menu font-15">
+                          <li>
+                            <a
+                              id="btnOpenSidebarView"
+                              class="dropdown-item"
+                              href="#"
+                              >View</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              id="btnOpenSidebarEdit"
+                              class="dropdown-item"
+                              href="#"
+                              >Edit</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#popModelActivate"
+                              >Activate</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#popModelDeactivate"
+                              >Deactivate</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card-body pb-1">
+                      <!-- line-1 -->
+                      <ul class="d-flex justify-content-between list-unstyled">
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Offer Type</div>
+                          <div class="font-14 fw-bold">Percentage</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Discount</div>
+                          <div class="font-14 fw-bold">15%</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Max Discount</div>
+                          <div class="font-14 fw-bold">£100</div>
+                        </li>
+                        <li class="flex-fill me-5 end-line">
+                          <div class="font-12">Min Order Value</div>
+                          <div class="font-14 fw-bold">£200</div>
+                        </li>
+                        <li class="flex-fill">
+                          <div class="font-12">User Type</div>
+                          <div class="font-14 fw-bold">New Users</div>
+                        </li>
+                      </ul>
+
+                      <!-- line-2 -->
+                      <ul class="d-flex justify-content-between list-unstyled">
+                        <li class="flex-fill me-5">
+                          <div class="font-12">Offer Validity</div>
+                          <div class="font-14 fw-bold">
+                            <ul
+                              class="list-unstyled d-flex justify-content-between me-5 pe-3"
+                            >
+                              <li>
+                                <span class="date-color">Start Date:</span>
+                                <span>01/04/2022</span>
+                              </li>
+                              <li>
+                                <span class="date-color">End Date:</span>
+                                <span>30/04/2022</span>
+                              </li>
+                              <li>
+                                <span
+                                  ><img
+                                    src="./images/Icon material-timer.svg"
+                                    alt=""
+                                /></span>
+                                <span>0 Days</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="flex-fill ms-4 ps-4">
+                          <div class="font-12">Status</div>
+                          <div class="font-14 fw-bold">Expried</div>
+                        </li>
+                        <li
+                          class="flex-fill d-flex justify-content-center align-items-center"
+                        >
+                          <button
+                            id="btnOpenSidebarViewMore"
+                            type="button"
+                            class="text-decoration-none btn btn-link fw-bold text-primary"
+                          >
+                            View More
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- **** -->
+                <div class="pagination py-3 d-flex justify-content-center">
+                  <nav aria-label="Page navigation example ">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#">Previous</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link bg-primary text-light" href="#"
+                          >1</a
+                        >
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+            <!-- without-offer -->
+            <div id="withoutOffer" class="col-md-9">
+              <div class="container mt-5 pt-5">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center"
+                >
+                  <img src="images/Group 8865.svg" alt="" class="p-3" />
+                  <p class="font-24 fw-bold my-0">
+                    Oops! No Offers to Display!
+                  </p>
+                  <p class="font-14 my-0">
+                    Add new offers so your customers can avail them while
+                    placing orders.
+                  </p>
+                  <button
+                    id="btnOpenSidebarCreateEmpty"
+                    type="button"
+                    class="btn btn-warning d-flex justify-content-end align-items-center rounded-pill m-3"
+                  >
+                    <img
+                      class="px-2"
+                      src="./images/Group 6454.svg"
+                      alt=""
+                    /><span class="font-15">Create Offer</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-pop-activate -->
+    <div
+      class="modal fade"
+      id="popModelActivate"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog pop-modal-dialog" role="document">
+        <div class="modal-content">
+          <div
+            class="modal-header d-flex align-items-end justify-content-end border-none p-0"
+          >
+            <button
+              type="button"
+              class="close text-decoration-none btn btn-link"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true"
+                ><img src="./images/Group 8970.svg" alt=""
+              /></span>
+            </button>
+          </div>
+          <div
+            class="modal-body py-3 border-none text-center w-50 mx-auto fw-bold fs-5"
+          >
+            Are you sure you want to Activate the Offer?
+          </div>
+          <div
+            class="modal-footer my-3 border-none d-flex justify-content-around"
+          >
+            <button
+              type="button"
+              class="btn btn-outline-primary rounded-pill model-btn p-3"
+              data-dismiss="modal"
+            >
+              No
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning rounded-pill model-btn p-3"
+            >
+              Yes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-pop-deactivate -->
+    <div
+      class="modal fade"
+      id="popModelDeactivate"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog pop-modal-dialog" role="document">
+        <div class="modal-content">
+          <div
+            class="modal-header d-flex align-items-end justify-content-end border-none p-0"
+          >
+            <button
+              type="button"
+              class="close text-decoration-none btn btn-link"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true"
+                ><img src="./images/Group 8970.svg" alt=""
+              /></span>
+            </button>
+          </div>
+          <div
+            class="modal-body py-3 border-none text-center w-50 mx-auto fw-bold fs-5"
+          >
+            Are you sure you want to Deactivate the Offer?
+          </div>
+          <div
+            class="modal-footer my-3 border-none d-flex justify-content-around"
+          >
+            <button
+              type="button"
+              class="btn btn-outline-primary rounded-pill model-btn p-3"
+              data-dismiss="modal"
+            >
+              No
+            </button>
+            <button
+              onclick="emptyOffers()"
+              type="button"
+              class="btn btn-warning rounded-pill model-btn p-3"
+              data-dismiss="modal"
+            >
+              Yes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- right-side-bar -->
+    <div id="sidebar" class="p-0">
+      <div class="top-side-bar d-flex align-items-center py-1">
+        <img
+          class="p-2 ps-3 cursor-pointer"
+          onclick="closeSidebar()"
+          src="./images/Group 8110.svg"
+          alt=""
+        />
+        <span class="p-2 ps-4 fw-bold font-20">View Offer</span>
+      </div>
+
+      <form action="index.html" method="post">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 ps-4">
+              <!-- promo-code -->
+              <div class="py-3">
+                <label class="font-14 fw-bold" for="promo-code"
+                  >Promo Code</label
+                ><br />
+                <input
+                  type="text"
+                  id="promo-code"
+                  name="promo-code"
+                  placeholder="LETSEATNEW"
+                  class="p-1 form-control font-14"
+                />
+              </div>
+
+              <!-- Validity -->
+              <div class="py-3">
+                <label class="font-14 fw-bold" for="offer-validity"
+                  >Offer Validity</label
+                >
+                <div class="d-flex justify-content-start">
+                  <div class="me-1">
+                    <label class="font-12 text-muted" for="starting"
+                      >Start Date</label
+                    >
+                    <input class="form-control" type="date" id="starting" />
+                  </div>
+                  <div>
+                    <label class="font-12 text-muted" for="starting"
+                      >End Date</label
+                    >
+                    <input class="form-control" type="date" id="starting" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- offer-type -->
+              <div class="py-3">
+                <label class="font-14 fw-bold" for="offer-type"
+                  >Offer Type</label
+                >
+                <div class="d-flex justify-content-start">
+                  <div class="me-5">
+                    <input
+                      type="radio"
+                      id="percentage"
+                      name="offer-type"
+                      value="percentage"
+                    />
+                    <label class="font-14" for="html">Persentage (%)</label>
+                  </div>
+                  <div>
+                    <input
+                      type="radio"
+                      id="flat"
+                      name="offer-type"
+                      value="flat"
+                    />
+                    <label class="font-14" for="css">Flat</label>
+                  </div>
+                </div>
+                <input
+                  class="form-control font-14 p-1"
+                  type="text"
+                  id="offer-type"
+                  name="offer-type"
+                  placeholder="10"
+                />
+              </div>
+
+              <!-- Discount -->
+              <div class="d-flex justify-content-start py-3">
+                <div class="me-1">
+                  <label class="font-14 fw-bold" for="max"
+                    >Maximum Discount</label
+                  ><br />
+                  <input
+                    type="text"
+                    id="max"
+                    name="max"
+                    placeholder="35"
+                    class="form-control font-14 p-1"
+                  />
+                </div>
+                <div>
+                  <label class="font-14 fw-bold" for="min"
+                    >Minimum Order Value</label
+                  ><br />
+                  <input
+                    type="text"
+                    id="min"
+                    name="min"
+                    placeholder="100"
+                    class="form-control font-14 p-1"
+                  />
+                </div>
+              </div>
+
+              <!-- user-type -->
+              <div class="py-3">
+                <label class="font-14 fw-bold" for="user-type"
+                  >Select User Type</label
+                ><br />
+                <div class="d-flex justify-content-start">
+                  <div class="me-5">
+                    <input type="radio" id="new" name="user-type" value="new" />
+                    <label class="font-14" for="new">New Users</label>
+                  </div>
+                  <div>
+                    <input
+                      type="radio"
+                      id="existing"
+                      name="user-type"
+                      value="existing"
+                    />
+                    <label class="font-14" for="existing">Existing Users</label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Applicable -->
+              <div class="d-flex flex-row align-items-center py-3">
+                <div class="p-2">
+                  <input
+                    type="radio"
+                    id="reg-customer"
+                    name="reg-customer"
+                    value="reg-customer"
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <label class="font-14 fw-bold" for="offer-validity"
+                    >Applicable Customer Who Registered Between</label
+                  >
+                  <div class="d-flex justify-content-start">
+                    <div class="me-1">
+                      <label class="font-12 text-muted" for="starting"
+                        >Start Date</label
+                      >
+                      <input class="form-control" type="date" id="starting" />
+                    </div>
+                    <div>
+                      <label class="font-12 text-muted" for="starting"
+                        >End Date</label
+                      >
+                      <input class="form-control" type="date" id="starting" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Redemption -->
+              <div class="d-flex flex-row align-items-center py-3">
+                <div class="p-2">
+                  <input
+                    type="radio"
+                    id="Redemption"
+                    name="Redemption"
+                    value="Redemption"
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <div class="font-14 fw-bold">Redemptions per Customer</div>
+                  <div class="font-12">Applicable Once per Customer</div>
+                </div>
+              </div>
+
+              <!-- Unique -->
+              <div class="d-flex flex-row align-items-center py-3">
+                <div class="p-2">
+                  <input
+                    type="radio"
+                    id="Unique"
+                    name="Unique"
+                    value="Unique"
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <div class="font-14 fw-bold">
+                    Unique Customer Redemptions per Coupon
+                  </div>
+                  <div class="font-12">
+                    Applicable for the first 100 Customer
+                  </div>
+                </div>
+              </div>
+
+              <!-- payment -->
+              <div class="d-flex flex-row align-items-center py-3">
+                <div class="p-2">
+                  <input
+                    type="radio"
+                    id="payment"
+                    name="payment"
+                    value="payment"
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <div class="font-14 fw-bold">Payment Method</div>
+                  <div class="font-12">Applicable only for online payments</div>
+                </div>
+              </div>
+
+              <!-- last order -->
+              <div class="d-flex flex-row align-items-center py-3">
+                <div class="p-2">
+                  <input type="radio" id="last" name="last" value="last" />
+                </div>
+                <div class="d-flex flex-column">
+                  <div class="font-14 fw-bold">Last Order Date</div>
+                  <div class="font-12">
+                    Applicable if the last order is older than a month
+                  </div>
+                </div>
+              </div>
+
+              <!-- same day re-order -->
+              <div class="d-flex flex-row align-items-center py-3">
+                <div class="p-2">
+                  <input type="radio" id="last" name="last" value="last" />
+                </div>
+                <div class="d-flex flex-column">
+                  <div class="font-14 fw-bold">Same Day Re-Order</div>
+                  <div class="font-12">
+                    Applicable if you are placing second order on same day
+                  </div>
+                </div>
+              </div>
+
+              <!-- status -->
+              <div class="py-3 d-flex">
+                <span class="font-15 fw-bold pe-3">Status</span>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input status-check-box"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                </div>
+              </div>
+
+              <!-- create-btn -->
+              <div class="py-3">
+                <button
+                  type="submit"
+                  class="btn btn-warning rounded-pill w-50 mx-3"
+                >
+                  Create
+                </button>
+              </div>
+
+              <!-- **** -->
+            </div>
+            <div class="col-md-5"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW3l/AK3LbItOp5G5LZfuPz4GgN8+5SWiQmCCmDxPT4jHp4jUn5zXUZefHui5"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

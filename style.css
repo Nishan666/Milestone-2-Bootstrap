@@ -1,0 +1,149 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#navbar {
+  background-color: #f2f4fa;
+}
+
+.navbar-logo {
+  background-color: #3d4869;
+}
+
+#navbar h5 {
+  font-size: 15px;
+}
+
+#navbar h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#navbar h3 {
+  font-size: 25px;
+}
+
+.side-bar-li {
+  padding-left: 0rem;
+}
+
+#body .side-bar {
+  background-color: #3d4869;
+  font-size: larger;
+  font-size: 15px;
+}
+
+#body .active {
+  border-right: 4px solid #ffd55a;
+  color: #ffd55a;
+  background-color: #454f6e;
+}
+
+#body .inactive:hover {
+  background-color: #454f6e;
+}
+
+#body .filter-btn {
+  width: 8rem;
+}
+
+.card .card-header-active {
+  background-color: #26d07c;
+}
+
+.card .card-header-inactive {
+  background-color: #808080;
+}
+
+.card .card-header-expried {
+  background-color: #d87373;
+}
+
+.end-line {
+  border-right: 2px solid #e7ebf7;
+}
+
+.date-color {
+  color: #909ab9;
+}
+
+.border-none {
+  border: none !important;
+}
+
+/* model */
+.pop-modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.model-btn {
+  width: 40%;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* right-side-bar */
+
+#sidebar {
+  width: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.top-side-bar {
+  background-color: #e7ebf7;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.status-check-box {
+  transform: scale(1.5);
+}
+
+#withOffer {
+  display: block;
+}
+
+#withoutOffer {
+  display: none;
+}
+
+/* font size */
+.font-15 {
+  font-size: 15px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
